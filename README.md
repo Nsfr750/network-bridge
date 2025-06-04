@@ -62,8 +62,8 @@ Un'applicazione avanzata per il monitoraggio e il bridging di reti locali, con s
 
 ```
 network-bridge/
-├── app/                  # Codice sorgente principale
-│   ├── bridge.py         # Logica principale dell'applicazione
+├── app/                 # Codice sorgente principale
+│   ├── bridge.py        # Logica principale dell'applicazione
 │   └── ...
 ├── struttura/           # Moduli di supporto
 │   ├── lang.py          # Gestione lingue
@@ -71,8 +71,8 @@ network-bridge/
 ├── assets/              # Risorse (immagini, icone, ecc.)
 ├── tests/               # Test automatici
 ├── requirements.txt     # Dipendenze Python
-├── README.md           # Questo file
-└── main.py             # Punto di ingresso
+├── README.md            # Questo file
+└── main.py              # Punto di ingresso
 ```
 
 ## 🌍 Supporto lingue
@@ -87,10 +87,10 @@ I contributi sono ben accetti! Per favore leggi le nostre [linee guida per i con
 
 ## 📄 Licenza
 
-Questo progetto è concesso in licenza con la licenza MIT - vedi il file [LICENSE](LICENSE) per i dettagli.
+Questo progetto è concesso in licenza con la licenza GPL3 - vedi il file [LICENSE](LICENSE) per i dettagli.
 
 ## 📧 Contatti
 
-Per domande o supporto, contattaci a: email@esempio.com
+Per domande o supporto, contattaci a: Nsfr750@yandex.com
 - Alcune funzionalità potrebbero richiedere privilegi di amministratore
 - L'applicazione è pensata per uso interno e non include misure di sicurezza avanzate per ambienti di produzione
