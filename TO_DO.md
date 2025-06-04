@@ -66,16 +66,70 @@ Questo file contiene un elenco di funzionalità pianificate, miglioramenti e cor
 - [ ] Riscrittura dell'architettura principale
 
 
-## 🤝 Come contribuire
+## 🤝 Come Contribuire
 
-1. Scegli un'attività dalla lista delle attività
-2. Crea un nuovo branch per la tua funzionalità (`git checkout -b feature/nuova-funzionalità`)
-3. Fai commit delle tue modifiche (`git commit -am 'Aggiunta nuova funzionalità'`)
-4. Fai push del branch (`git push origin feature/nuova-funzionalità`)
-5. Crea una Pull Request
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+  <h3 style="margin-top: 0;">🚀 Pronto a contribuire?</h3>
+  <p>Siamo entusiasti che tu voglia contribuire a Network Bridge! Ecco come puoi iniziare:</p>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+    <div style="background: white; padding: 1rem; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4 style="margin-top: 0;">1. Trova un'attività</h4>
+      <p>Scegli tra i bug noti o le funzionalità pianificate</p>
+    </div>
+    <div style="background: white; padding: 1rem; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4 style="margin-top: 0;">2. Crea un branch</h4>
+      <p>Crea un nuovo branch per la tua funzionalità:</p>
+      <code style="background: #f1f3f5; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.9em;">
+        git checkout -b feature/nome-funzionalità
+      </code>
+    </div>
+    <div style="background: white; padding: 1rem; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h4 style="margin-top: 0;">3. Invia le modifiche</h4>
+      <p>Crea una pull request con le tue modifiche</p>
+    </div>
+  </div>
+  
+  <h4>📝 Istruzioni dettagliate:</h4>
+  <ol style="padding-left: 1.5rem;">
+    <li>Fai il fork del repository</li>
+    <li>Crea il tuo branch di funzionalità</li>
+    <li>Fai commit delle tue modifiche con messaggi descrittivi</li>
+    <li>Fai push del branch al tuo fork</li>
+    <li>Apri una Pull Request</li>
+  </ol>
+</div>
 
-## 📝 Note
+## 📚 Linee Guida per i Contributi
 
-- Assicurati di testare le tue modifiche prima di inviare una PR
-- Segui le linee guida di stile del codice del progetto
-- Documenta le nuove funzionalità e le modifiche all'API
+<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+  <h3 style="margin-top: 0;">✅ Prima di Inviare una PR</h3>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0;">
+    <div style="background: white; padding: 1rem; border-radius: 6px; border-left: 3px solid #4CAF50;">
+      <h4 style="margin-top: 0; color: #2e7d32;">🧪 Test</h4>
+      <p>Assicurati che tutti i test passino e aggiungi nuovi test per le tue modifiche.</p>
+    </div>
+    <div style="background: white; padding: 1rem; border-radius: 6px; border-left: 3px solid #2196F3;">
+      <h4 style="margin-top: 0; color: #1565c0;">📝 Documentazione</h4>
+      <p>Aggiorna la documentazione per riflettere le tue modifiche.</p>
+    </div>
+    <div style="background: white; padding: 1rem; border-radius: 6px; border-left: 3px solid #FFC107;">
+      <h4 style="margin-top: 0; color: #ff8f00;">🎨 Stile del Codice</h4>
+      <p>Segui le convenzioni di stile del progetto.</p>
+    </div>
+  </div>
+  
+  <h3>📋 Linee Guida Aggiuntive</h3>
+  <ul style="padding-left: 1.5rem;">
+    <li>Mantieni i commit atomici e ben descritti</li>
+    <li>Documenta le nuove API o le modifiche a quelle esistenti</li>
+    <li>Includi esempi di utilizzo per nuove funzionalità</li>
+    <li>Aggiorna il CHANGELOG.md con le modifiche rilevanti</li>
+  </ul>
+  
+  <div style="background: #e3f2fd; padding: 1rem; border-radius: 6px; margin-top: 1rem;">
+    <h4 style="margin-top: 0;">📬 Hai domande?</h4>
+    <p>Se hai domande o hai bisogno di aiuto, non esitare ad aprire una issue o a contattarci!</p>
+  </div>
+</div>
