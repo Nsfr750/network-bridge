@@ -1,62 +1,121 @@
-# Network Bridge
+<div align="center">
+  <h1>🌉 Network Bridge</h1>
+  <h3>Monitoraggio e gestione avanzata di reti locali</h3>
+  
+  [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+  [![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+  
+  ![Network Bridge Screenshot](templates/images/screenshot.png)
+</div>
 
-Un'applicazione avanzata per il monitoraggio e il bridging di reti locali, con supporto multilingua e un'interfaccia utente intuitiva.
+> Un'applicazione avanzata per il monitoraggio e il bridging di reti locali, con supporto multilingua e un'interfaccia utente intuitiva.
 
-![Network Bridge Screenshot](templates/images/screenshot.png)
+## ✨ Caratteristiche principali
 
-## 🌟 Caratteristiche principali
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+  <div>
+    <h4>🌐 Gestione Reti</h4>
+    <ul>
+      <li>Gestione di più reti contemporaneamente</li>
+      <li>Monitoraggio in tempo reale</li>
+      <li>Configurazione intuitiva</li>
+    </ul>
+  </div>
+  <div>
+    <h4>🔍 Analisi</h4>
+    <ul>
+      <li>Scansione avanzata delle risorse</li>
+      <li>Logging dettagliato con filtri</li>
+      <li>Esportazione dati in vari formati</li>
+    </ul>
+  </div>
+  <div>
+    <h4>🎨 Interfaccia</h4>
+    <ul>
+      <li>Interfaccia utente moderna</li>
+      <li>Tema scuro/chiaro</li>
+      <li>Supporto multilingua</li>
+    </ul>
+  </div>
+</div>
 
-- **Gestione di più reti** contemporaneamente
-- **Scansione avanzata** delle risorse di rete
-- **Interfaccia utente moderna** con tema scuro/chiaro
-- **Logging dettagliato** con filtri personalizzabili
-- **Supporto multilingua** (Inglese e Italiano)
-- **Esportazione dati** in vari formati
-- **Monitoraggio in tempo reale** dello stato della rete
+## 🛠️ Requisiti di sistema
 
-## 📋 Requisiti di sistema
+| Componente | Requisito |
+|-----------|-----------|
+| **Python** | 3.8 o superiore |
+| **Sistema Operativo** | Windows 10/11, macOS 10.15+, Linux |
+| **RAM** | Minimo 2GB (4GB consigliati) |
+| **Spazio su disco** | 100MB liberi |
+| **Connessione di rete** | Richiesta |
+| **Permessi** | Amministratore (per alcune funzionalità) |
 
-- Python 3.8 o superiore
-- Sistema operativo: Windows 10/11, macOS, o Linux
-- Connessione di rete attiva
-- Permessi di amministratore (per alcune funzionalità di scansione)
+> **Nota:** Alcune funzionalità avanzate potrebbero richiedere ulteriori dipendenze.
 
 ## 🚀 Installazione
 
-1. Clona il repository:
-   ```bash
-   git clone https://github.com/tuoutente/network-bridge.git
-   cd network-bridge
-   ```
+### Prerequisiti
+Assicurati di avere [Python 3.8+](https://www.python.org/downloads/) installato.
 
-2. Crea e attiva un ambiente virtuale (consigliato):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Su Windows: venv\Scripts\activate
-   ```
+### Passaggi di installazione
 
-3. Installa le dipendenze:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+# 1. Clona il repository
+git clone https://github.com/tuoutente/network-bridge.git
+cd network-bridge
 
-## 🏁 Avvio rapido
+# 2. Crea e attiva un ambiente virtuale (consigliato)
+python -m venv venv
+# Su Windows:
+.\venv\Scripts\activate
+# Su macOS/Linux:
+source venv/bin/activate
 
-1. Avvia l'applicazione:
-   ```bash
-   python main.py
-   ```
+# 3. Installa le dipendenze
+pip install -r requirements.txt
+```
 
-2. Configura le reti:
-   - Inserisci nomi descrittivi per le reti
-   - Specifica gli indirizzi IP o i nomi host
-   - Clicca su "Connetti" per ogni rete
+### Verifica l'installazione
+```bash
+python --version  # Dovrebbe mostrare Python 3.8 o superiore
+pip list  # Mostra i pacchetti installati
+```
 
-3. Utilizza le funzionalità avanzate:
-   - Scansione rete
-   - Monitoraggio in tempo reale
-   - Esportazione dati
-   - Filtri personalizzati
+## 🚀 Avvio rapido
+
+### Avvia l'applicazione
+```bash
+python main.py
+```
+
+### Configurazione iniziale
+1. **Aggiungi una nuova rete**
+   - Clicca su "Nuova Rete"
+   - Inserisci un nome descrittivo
+   - Specifica l'indirizzo IP o hostname
+   - Configura le impostazioni avanzate (opzionale)
+
+2. **Connessione**
+   - Seleziona la rete
+   - Clicca su "Connetti"
+   - Verifica lo stato della connessione
+
+### Funzionalità principali
+- **Scansione Rete**
+  - Scopri dispositivi connessi
+  - Analizza le porte aperte
+  - Verifica i servizi attivi
+
+- **Monitoraggio**
+  - Visualizza statistiche in tempo reale
+  - Imposta avvisi personalizzati
+  - Esporta i dati di monitoraggio
+
+- **Logging**
+  - Visualizza log dettagliati
+  - Applica filtri avanzati
+  - Esporta i log in vari formati
 
 ## 🛠️ Struttura del progetto
 
