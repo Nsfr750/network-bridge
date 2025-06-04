@@ -2,7 +2,7 @@
 
 Un'applicazione avanzata per il monitoraggio e il bridging di reti locali, con supporto multilingua e un'interfaccia utente intuitiva.
 
-![Network Bridge Screenshot](screenshot.png)
+![Network Bridge Screenshot](templates/images/screenshot.png)
 
 ## 🌟 Caratteristiche principali
 
